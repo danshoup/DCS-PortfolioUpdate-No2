@@ -1,0 +1,97 @@
+:root {
+  --white: rgb(243, 243, 222);
+  --offWhite: rgb(245, 235, 222);
+  --grey: rgb(178, 179, 180);
+  --darkBlue: rgb(7, 7, 77);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: var(--grey);
+    color: var(--darkBlue);
+  }
+  
+  html {
+    height: 100%;
+  }
+  
+  body {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+    
+  }
+  
+  header {
+    justify-content: space-between;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: 20px;
+    padding: 10px;
+  }
+
+  main {
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    width: 50%;
+    height: 100%;
+    padding: ;
+    justify-content: center;
+  }
+  
+
+  h1,
+  h2{
+    margin: 20px;
+    font-size: 1.5rem;
+  }
+  
+  p {
+    margin: 10px;
+    padding: 20px;
+    font-size: 20px;
+  }
+
+  ul {
+    margin-bottom: 20px;
+  }
+
+  li {
+    padding: 5px;
+    margin: 10px;
+    width: 25rem;
+    text-align: left;
+    justify-content: left;
+    background-color: var(--white);
+  }
+
+  .lstBtn {
+    margin: 15px;
+    background-color: var(--white);
+    border-radius: 8px;
+    transition: all 0.05s ease-in-out;
+  }
+
+  .lstBtn:hover {
+    box-shadow: inset 0px 0px 8px var(--offWhite), 0 0 25px var(--offWhite);
+  }
+
+  .answerConfirm {
+    margin-top: 20px;
+  }
+
+  #start-button, #reStart, #clearScores {
+    padding: 10px;
+    margin: 0 auto;
+    background-color: var(--white);
+    border-radius: 8px;
+    transition: all 0.05s ease-in-out;
+  }
+
+#start-button:hover, #reStart:hover, #clearScores:hover {
+  box-shadow: inset 0px 0px 8px var(--offWhite), 0 0 25px var(--offWhite);
+
+}

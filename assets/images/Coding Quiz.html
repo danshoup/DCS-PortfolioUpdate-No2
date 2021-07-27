@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<!-- saved from url=(0061)http://127.0.0.1:5500/Homework_DCS/javascript_quiz/index.html -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Coding Quiz</title>
+    <link rel="stylesheet" href="./Coding Quiz_files/reset.css">
+    <link rel="stylesheet" href="./Coding Quiz_files/style.css">
+  </head>
+
+  <body>
+    <!-- Header with highscores link and timer -->
+    <header>
+      <div class="menu">
+        <a href="http://127.0.0.1:5500/Homework_DCS/javascript_quiz/highscores.html">View Highscores</a>
+      </div>
+      <div class="timerText">Time: <span id="timer-count">54 seconds</span></div>
+    </header>
+ 
+    <!-- Question box -->
+    <main class="quizCard">
+
+      <div class="questionBox">
+        <h2>Coding Quiz Challenge</h2>
+        <p id="questions">Commonly used data types DO NOT include:</p>
+        <ul id="choiceList" style="display: block;">
+          <button class="lstBtn"><li class="lstItem" id="choice1">1. strings</li></button>
+          <button class="lstBtn"><li class="lstItem" id="choice2">2. booleans</li></button>
+          <button class="lstBtn"><li class="lstItem" id="choice3">3. alerts</li></button>
+          <button class="lstBtn"><li class="lstItem" id="choice4">4. numbers</li></button>
+        </ul>
+        <button id="start-button" style="display: none;">Start Quiz</button>
+      </div>
+      
+    </main>
+
+
+    <div class="answerConfirm">Sorry, that is the WRONG asnwer...</div>
+
+    <script src="./Coding Quiz_files/script.js"></script>
+  <!-- Code injected by live-server -->
+<script type="text/javascript">
+	// <![CDATA[  <-- For SVG support
+	if ('WebSocket' in window) {
+		(function () {
+			function refreshCSS() {
+				var sheets = [].slice.call(document.getElementsByTagName("link"));
+				var head = document.getElementsByTagName("head")[0];
+				for (var i = 0; i < sheets.length; ++i) {
+					var elem = sheets[i];
+					var parent = elem.parentElement || head;
+					parent.removeChild(elem);
+					var rel = elem.rel;
+					if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
+						var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
+						elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
+					}
+					parent.appendChild(elem);
+				}
+			}
+			var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
+			var address = protocol + window.location.host + window.location.pathname + '/ws';
+			var socket = new WebSocket(address);
+			socket.onmessage = function (msg) {
+				if (msg.data == 'reload') window.location.reload();
+				else if (msg.data == 'refreshcss') refreshCSS();
+			};
+			if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
+				console.log('Live reload enabled.');
+				sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
+			}
+		})();
+	}
+	else {
+		console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
+	}
+	// ]]>
+</script>
+
+</body></html>

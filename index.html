@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Raleway:wght@500&family=Roboto&display=swap" rel="stylesheet">    <link rel="stylesheet" href="./assets/css/style.css">
+    <title>Daniel Shoup - Portfolio</title>
+</head>
+
+<body class="">
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark">
+      <a class="navbar-brand" href="#">Portfolio</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item active">
+            <a class="nav-link" href="./index.html">Home <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" href="#bio">Bio</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" href="#portfolio">Projects</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <!-- Jumbotron -->
+    <div class="jumbotron jumbotron-fluid text-center text-light">
+      <div class="container">
+        <h1 class="display-4">Daniel C. Shoup</h1>
+        <p class="lead">Professional Portfolio</p>
+      </div>
+    </div>
+
+    <!-- Main content seciton -->
+    <main>
+        <!-- Bio and Headshot -->
+        <section>
+            <aside class="media text-light" id="bio">
+                <img src="./assets/images/headshot.jpg" class="mr-3 rounded img-fluid" alt="headshot photo" width="300" height="300">
+                <div class="media-body">
+                    <h5 class="mt-0">About Me:</h5>
+                    <p>With professional experience across a variety of industries, I adapt quickly and thrive in multi-faceted, fast-paced environments. I have experience in HTML, CSS, JavaScript, and Node. I perform well as part of a diverse team and work to promote group cohesiveness. Decision-making and leading under pressure come naturally to me; my work is always thorough, accurate, timely, and positive. </p>
+                    <p>Please check out a variety of my projects below this intro!</p>
+                </div>
+            </aside>
+        </section>
+
+        <hr>
+
+        <!-- Cards for portfolio projects -->
+        <section>
+            <div class="row" id="portfolio">
+
+                <div class="col-sm-4">
+                    <div class="card text-center" style="width: 18rem;">
+                        <img src="./assets/images/sipScreenshotTemp.png" class="card-img-top" alt="screeenshot of sip app">
+                        <div class="card-body">
+                            <h5 class="card-title">Group Project: Sip</h5>
+                            <p class="card-text">Sip is a simple app to help you find the perfet cocktail recipe.</p>
+                            <a href="https://danshoup.github.io/build-a-cocktail/" class="btn btn-primary">Go to Sip</a>
+                        </div>
+                    </div>
+                </div>
+            
+                <div class="col-sm-4">
+                    <div class="card text-center" style="width: 18rem;">
+                        <img src="./assets/images/weatherdash.png" class="card-img-top" alt="screenshot of weather dashboard">
+                        <div class="card-body">
+                            <h5 class="card-title">Weather Dashboard</h5>
+                            <p class="card-text">A weather dashboard to look up the current weather in a particular zip code.</p>
+                            <a href="https://danshoup.github.io/weather_dashboard/" class="btn btn-primary">Go to Dashboard</a>
+                        </div>
+                    </div>
+                </div>
+            
+                <div class="col-sm-4">
+                    <div class="card text-center" style="width: 18rem;">
+                        <img src="./assets/images/plannerScreenshot.png" class="card-img-top" alt="screenshot of daily planner">
+                        <div class="card-body">
+                            <h5 class="card-title">Daily Planner</h5>
+                            <p class="card-text">Log your workday activities by the hour.</p>
+                            <a href="https://danshoup.github.io/daily_planner/" class="btn btn-primary">Go to Planner</a>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+    </main>
+
+    <hr>
+
+    <footer>
+        <ul class="nav justify-content-center">
+            <li class="nav-item">
+                <a class="nav-link" href="#" tabindex="-1" aria-disabled="true">More about me:</a>
+            </li>
+            <li class="nav-item">
+            <a class="nav-link active" href="https://github.com/danshoup">GitHub</a>
+            </li>
+            <li class="nav-item">
+            <a class="nav-link active" href="https://www.linkedin.com/in/daniel-shoup-21873b2a/">LinkedIn</a>
+            </li>
+            <li class="nav-item">
+            <a class="nav-link active" href="./assets/doc/resume2021.pdf">Resumé</a>
+            </li>
+        </ul>
+    </footer>
+
+    <hr>
+
+</body>
+
+</html>

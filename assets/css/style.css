@@ -1,0 +1,80 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  :root {
+      --dark: #5D5C61;
+      --gray: #379683;
+      --lightBlue: #7395AE;
+      --blue: #557A95;
+      --tan: #B1A296;
+      --white: white;
+  }
+
+  html {
+    height: 100%;
+  }
+
+  nav {
+      background-color: var(--blue);
+  }
+  
+  body {
+    min-height: 100%;
+    line-height: 1;
+    font-family: Raleway, Roboto, Montserrat, sans-serif;
+    background-color: var(--lightBlue);
+  }
+  
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    font-size: 100%;
+  }
+  
+  input,
+  select,
+  option,
+  optgroup,
+  textarea,
+  button,
+  pre,
+  code {
+    font-size: 100%;
+    font-family: inherit;
+  }
+  
+  ol,
+  ul {
+    list-style: none;
+  }
+
+  footer {
+      background-color: var(--blue);
+  }
+  
+  footer li a {
+      color: var(--white);
+  }
+  
+  .btn {
+      background-color: var(--dark);
+  }
+  .jumbotron {
+      background-image: url("../images/image2.jpg");
+      background-size: 100vw;
+  }
+
+  .card {
+      border-radius: 8px;
+      transition: all 0.5s ease-in-out;
+  }
+
+  .card:hover {
+    box-shadow: inset 0px 0px 12px var(--tan), 0 0 25px var(--tan);
+  }
