@@ -1,8 +1,8 @@
-# 08 Portfolio Assignment
+# 16 Portfolio Assignment
 
 ## Updating My Professional Materials
 
-This is the eighth assigment for MSU Coding Bootcamp; to update the portfolio we created ealier to include projects we have completed during our cohort. It also includes other updated professional materials, such as LinkedIn and GitHub profiles, and an updated resume.
+This is the sixteenth assigment for MSU Coding Bootcamp; to update the portfolio we created ealier to include projects we have completed most recently during our cohort. It also includes other updated professional materials, such as LinkedIn and GitHub profiles, and an updated resume.
 
 ​
 
@@ -17,10 +17,11 @@ This is the eighth assigment for MSU Coding Bootcamp; to update the portfolio we
 
 ## Requirements
 
-- Updataed portfolio feauring Project 1 and two exemplary homework assignments.
+- Updataed portfolio feauring group projects and other exemplary homework assignments.
+
 - nav links scroll to appropriate section
 
-- Updated GitHub profile with pinned repositories featuring Project 1 and two exemplary assignments.
+- Updated GitHub profile with pinned repositories featuring projects and exemplary assignments.
 
 - Updated resume.
 
